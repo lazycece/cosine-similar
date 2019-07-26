@@ -5,7 +5,7 @@
 ### 分词
  [HanLP](https://github.com/hankcs/HanLP)
 ### 公式
-![cosine-expression](cosine-expression.png)
+![cosine-expression](doc/cosine-expression.png)
 
 ## apply
 ```java
