@@ -4,7 +4,7 @@
 使用词向量余弦算法计算文本相似度
 ### 分词
  [HanLP](https://github.com/hankcs/HanLP)
-### 词向量余弦计算公式
+### 公式
 ![cosine-expression](cosine-expression.png)
 
 ## apply
