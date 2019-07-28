@@ -32,14 +32,14 @@ public class Similarity {
 
             }
         });
-        double dictNum = 0, originNum = 0, desNum = 0;
+        double dictNum = 0, originNum = 0, targetNum = 0;
         for (Map.Entry<String, int[]> entry : wordDict.entrySet()) {
             int origin = entry.getValue()[0];
             int des = entry.getValue()[1];
             originNum += origin * origin;
-            desNum += des * des;
+            targetNum += des * des;
             dictNum += origin * des;
         }
-        return dictNum / Math.sqrt(originNum * desNum);
+        return dictNum / Math.sqrt(originNum * targetNum);
     }
 }
